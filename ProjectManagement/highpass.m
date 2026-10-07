@@ -15,5 +15,5 @@ ylabel('Magnitude (dB)')
 bandwidth = (max(magdb)-3)*ones(ii,jj);
 hold on
 semilogx(w,bandwidth)
-A = magdb(i,j)
+A = magdb(ii,jj)
 
