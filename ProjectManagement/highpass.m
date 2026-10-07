@@ -11,7 +11,7 @@ grid on
 xlabel('Frequency (rad/s)')
 ylabel('Magnitude (dB)')
 
-[i,j] = size(w)
-bandwidth = (max(magdb)-3)*ones(i,j);
+[ii,jj] = size(w)
+bandwidth = (max(magdb)-3)*ones(ii,jj);
 hold on
 semilogx(w,bandwidth)
